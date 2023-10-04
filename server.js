@@ -7,6 +7,4 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.listen(5000, () => {
   console.log('App listening on ports 5000.')
-})
-console.log("Commits 2")
-
+});
